@@ -61,11 +61,11 @@
       "versions": [
         {
           "version": "1.0.0",
-          "publishTimestamp": 1795274792,
+          "publishTimestamp": 1795275101,
           "source": {
             "type": "git",
             "url": "https://github.com/rouhrou/dsh-plugin-remote-ssh",
-            "commit": "92bff38755d48a18f580c17c9a852678dd99df95"
+            "commit": "704e4a6e68ee070d019c2ac348f6f5ce34f008c4"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.1"
