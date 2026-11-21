@@ -1,5 +1,5 @@
 {
-  "name": "dsh-plugin-ssh-connections",
+  "name": "dsh-plugin-remote_ssh",
   "version": "1.0.0",
   "private": false,
   "type": "module",
