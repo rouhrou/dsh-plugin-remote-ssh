@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "SSH connections",
+    "description": "Save named SSH servers with DPAPI-protected passwords, then list them and run remote commands from the agent.",
+    "detail": "docs/DETAIL.md"
+  }
+}

@@ -1,0 +1,8 @@
+- insert:
+    - id: ssh-connections
+      name: '@local/ssh-connections'
+      config:
+        connectTimeoutMs: 15000
+        commandTimeoutMs: 120000
+        outputLimitBytes: 262144
+        strictHostKeyChecking: accept-new

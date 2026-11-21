@@ -1,0 +1,45 @@
+{
+  "name": "dsh-plugin-ssh-connections",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Saved SSH connections for DeepSeek Harness: Windows DPAPI-protected passwords and agent tools to list, add, remove, and run remote commands.",
+  "keywords": [
+    "dsh-plugin",
+    "dsh-bundle",
+    "deepseek-harness",
+    "ssh",
+    "remote",
+    "windows",
+    "dpapi"
+  ],
+  "license": "MIT",
+  "os": [
+    "win32"
+  ],
+  "engines": {
+    "dsh": ">=0.2.2-rc.1"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "store.js",
+    "remote.js",
+    "askpass.cs",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

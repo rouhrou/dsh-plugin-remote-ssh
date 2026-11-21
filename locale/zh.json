@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "SSH 连接",
+    "description": "保存常用 SSH 服务器（密码用 Windows DPAPI 加密），让智能体列出连接并直接执行远程命令。",
+    "detail": "docs/DETAIL.md"
+  }
+}
