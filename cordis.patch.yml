@@ -1,6 +1,6 @@
 - insert:
     - id: ssh-connections
-      name: '@local/ssh-connections'
+      name: 'dsh-plugin-remote-ssh'
       config:
         connectTimeoutMs: 15000
         commandTimeoutMs: 120000
